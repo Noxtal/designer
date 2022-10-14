@@ -50,11 +50,11 @@ class TerminalFactory:
     """
     The Factory Method for creating a terminal command
     """
-    def __init__(self, command):
+    def __init__(self, command: str):
         self.command = command
         self.args = []
 
-    def arg(self, arg) -> TerminalFactory:
+    def arg(self, arg: str) -> TerminalFactory:
         """
         Add an argument to the command
         :param arg: The argument to add
