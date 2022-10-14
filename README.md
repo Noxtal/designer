@@ -9,7 +9,8 @@ Feel free to get inspired and try the exercise out by yourself.
 ## Featuring
 - Creational Patterns
   - [x] Factory Method: [Cross-Platform Command-Line Interface](https://github.com/Noxtal/designer/blob/master/creational/factory.py)
-  - [x] Builder Method: [Line Renderer Drawing API](https://github.com/Noxtal/designer/blob/master/creational/builder.py)
+  - [x] Builder: [Line Renderer Drawing API](https://github.com/Noxtal/designer/blob/master/creational/builder.py)
+  - [x] Singleton: [Simple Logging System](https://github.com/Noxtal/designer/blob/master/creational/singleton.py)
 - Structural Patterns
   - [x] Monad: [Optional/Maybe Type](https://github.com/Noxtal/designer/blob/master/structural/monad.py)
 - Behavioral Patterns
