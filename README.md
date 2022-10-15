@@ -14,4 +14,4 @@ Feel free to get inspired and try the exercise out by yourself.
 - Structural Patterns
   - [x] Monad: [Optional/Maybe Type](https://github.com/Noxtal/designer/blob/master/structural/monad.py)
 - Behavioral Patterns
-  - WIP
+  - [x] Iterator: [Iterative Tree Traversal](https://github.com/Noxtal/designer/blob/master/behavioral/iterator.py)
