@@ -33,7 +33,7 @@ class IIterator:
     def __init__(self):
         self.current = 0
 
-    def next(self) -> Any or None:
+    def next(self) -> Any:
         """
         Abstract method for getting the next element
         """
