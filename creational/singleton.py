@@ -15,7 +15,7 @@ class Logger:
     @staticmethod
     def get_instance():
         """
-        Gets the current singleton instance of the Logger class
+        Get the current singleton instance of the Logger class
         :return: The current singleton instance of the Logger class
         """
         if Logger.__instance is None:
@@ -34,7 +34,7 @@ class Logger:
 
     def log(self, message):
         """
-        Logs a message at a certain time to the log file
+        Log a message at a certain time to the log file
         :param message: The message to log
         """
         with open(self.file, "a") as f:

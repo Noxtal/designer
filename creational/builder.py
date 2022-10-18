@@ -29,7 +29,7 @@ class GraphicsBuilder:
 
     def set_color(self, color: Tuple[int, int, int]) -> GraphicsBuilder:
         """
-        Sets the color of the next lines to be added
+        Set the color of the next lines to be added
         :param color: The color to set
         """
         self.color = color
@@ -37,7 +37,7 @@ class GraphicsBuilder:
 
     def add_line(self, x1: float, y1: float, x2: float, y2: float) -> GraphicsBuilder:
         """
-        Adds a line to the graphics
+        Add a line to the graphics
         :param x1: First x coordinate
         :param y1: First y coordinate
         :param x2: Second x coordinate
@@ -49,7 +49,7 @@ class GraphicsBuilder:
 
     def build(self) -> Graphics:
         """
-        Builds into a graphics object
+        Build into a graphics object
         :return: The graphics object
         """
         return self.graphics
@@ -66,7 +66,7 @@ class GraphicsDirector:
     def rectangle(self, topleft: Tuple[float, float], width: float, height: float,
                   color: Tuple[int, int, int] = (255, 255, 255)):
         """
-        Draws a rectangle
+        Draw a rectangle
         :param topleft: Top left corner of the rectangle
         :param width: Width of the rectangle
         :param height: Height of the rectangle
@@ -82,7 +82,7 @@ class GraphicsDirector:
 
     def polygon(self, n, center, apothem, color=(255, 255, 255)):
         """
-        Draws a regular polygon
+        Draw a regular polygon
         :param n: Amount of sides
         :param center: Center of the polygon
         :param apothem: Apothem of the polygon

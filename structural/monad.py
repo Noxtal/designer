@@ -14,35 +14,35 @@ class Option:
 
     def __init__(self, value=None):
         """
-        Initializes a new Option object with a given value (defaults to None)
+        Initialize a new Option object with a given value (defaults to None)
         :param value: Value stored at first inside the Option
         """
         self.value = value
 
     def is_none(self) -> bool:
         """
-        Checks if the Option's value is None
+        Check if the Option's value is None
         :return: True if the Option is None
         """
         return self.value is None
 
     def is_some(self) -> bool:
         """
-        Checks if the Option contains something (opposite of is_none())
+        Check if the Option contains something (opposite of is_none())
         :return: True if the Option is not None
         """
         return self.value is not None
 
     def unwrap(self):
         """
-        Unwraps the Option object into only its value
+        Unwrap the Option object into only its value
         :return: The Option's value
         """
         return self.value
 
     def unwrap_or(self, default):
         """
-        Unwraps the Option object into only its value. If it is None, return a default value
+        Unwrap the Option object into only its value. If it is None, return a default value
         :param default: Value used if the Option is_none()
         :return: The Option's value or default
         """
@@ -52,7 +52,7 @@ class Option:
 
     def map(self, f) -> Option:
         """
-        Maps a method to the Option's value if it is not None
+        Map a method to the Option's value if it is not None
         :param f: Method to map.
         :return: A new Option with the value mapped using method f
         """
