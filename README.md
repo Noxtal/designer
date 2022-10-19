@@ -15,6 +15,7 @@ Feel free to get inspired and try the exercise out by yourself.
     - [x] Singleton: [Simple Logging System](https://github.com/Noxtal/designer/blob/master/creational/singleton.py)
 - Structural Patterns
     - [x] Monad: [Optional/Maybe Type](https://github.com/Noxtal/designer/blob/master/structural/monad.py)
+    - [x] Decorator: [File Operations Wrapper](https://github.com/Noxtal/designer/blob/master/structural/decorator.py)
 - Behavioral Patterns
     - [x] Iterator: [Iterative Tree Traversal](https://github.com/Noxtal/designer/blob/master/behavioral/iterator.py)
     - [x] Chain of
