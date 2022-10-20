@@ -20,3 +20,4 @@ Feel free to get inspired and try the exercise out by yourself.
     - [x] Iterator: [Iterative Tree Traversal](https://github.com/Noxtal/designer/blob/master/behavioral/iterator.py)
     - [x] Chain of
       Responsibility: [API Request Handler](https://github.com/Noxtal/designer/blob/master/behavioral/cor.py)
+    - [x] Observer: [Drag and Drop UI](https://github.com/Noxtal/designer/blob/master/behavioral/observer.py)
